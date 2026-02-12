@@ -27,6 +27,12 @@ export default function Home() {
     return false
   }
 
+  const goBack = () => {
+    setStage(stage - 1)
+    setInput('')
+    setError('')
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     
@@ -108,12 +114,21 @@ export default function Home() {
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
-              <button
-                type="submit"
-                className="mt-4 px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
-              >
-                Submit
-              </button>
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={goBack}
+                  className="px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
+                <button
+                  type="submit"
+                  className="px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         )}
@@ -143,12 +158,21 @@ export default function Home() {
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
-              <button
-                type="submit"
-                className="mt-4 px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
-              >
-                Submit
-              </button>
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={goBack}
+                  className="px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
+                <button
+                  type="submit"
+                  className="px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         )}
@@ -185,12 +209,21 @@ export default function Home() {
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
-              <button
-                type="submit"
-                className="mt-4 px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
-              >
-                Submit
-              </button>
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={goBack}
+                  className="px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
+                <button
+                  type="submit"
+                  className="px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         )}
@@ -245,12 +278,21 @@ export default function Home() {
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
-              <button
-                type="submit"
-                className="mt-4 px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
-              >
-                Submit
-              </button>
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={goBack}
+                  className="px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
+                <button
+                  type="submit"
+                  className="px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         )}
@@ -292,12 +334,21 @@ export default function Home() {
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}
-              <button
-                type="submit"
-                className="mt-4 px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
-              >
-                Submit
-              </button>
+              <div className="flex gap-3 mt-4">
+                <button
+                  type="button"
+                  onClick={goBack}
+                  className="px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
+                <button
+                  type="submit"
+                  className="px-6 py-2 bg-blood-red hover:bg-red-900 text-white rounded transition-all"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         )}
@@ -339,6 +390,12 @@ export default function Home() {
                 <p className="text-xs text-gray-600 mt-4 italic">
                   "We all go a little mad sometimes." — Norman Bates, Psycho
                 </p>
+                <button
+                  onClick={goBack}
+                  className="mt-6 px-6 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded transition-all"
+                >
+                  ← Back
+                </button>
               </div>
             </div>
           </div>
