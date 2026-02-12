@@ -348,25 +348,27 @@ export default function Home() {
                 You approach the mirror. In its reflection, you see yourself... and something else.
               </p>
               <div className="my-8 flex justify-center">
-                <div className="relative">
-                  <svg width="200" height="200" viewBox="0 0 24 24" className="animate-pulse-slow">
+                <div className="relative animate-pulse-slow">
+                  <svg width="200" height="200" viewBox="0 0 24 24" style={{ filter: 'drop-shadow(0 0 20px rgba(0, 87, 183, 0.8))' }}>
+                    <defs>
+                      <linearGradient id="ukraineGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style={{ stopColor: '#0057B7', stopOpacity: 1 }} />
+                        <stop offset="50%" style={{ stopColor: '#0057B7', stopOpacity: 1 }} />
+                        <stop offset="50%" style={{ stopColor: '#FFD700', stopOpacity: 1 }} />
+                        <stop offset="100%" style={{ stopColor: '#FFD700', stopOpacity: 1 }} />
+                      </linearGradient>
+                    </defs>
                     <path
                       d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
-                      fill="#000000"
-                      stroke="#8B0000"
-                      strokeWidth="0.5"
+                      fill="url(#ukraineGradient)"
+                      stroke="#FFFFFF"
+                      strokeWidth="0.3"
                     />
                   </svg>
                 </div>
               </div>
               <p className="text-2xl italic text-blood-red">
-                "The heart you seek has always been within you."
-              </p>
-              <p className="mt-4">
-                In Hitchcock's world, the true horror isn't the monster in the shadows—
-              </p>
-              <p className="text-blood-red font-bold text-xl">
-                it's the darkness we carry inside.
+                "Люблю тебе 3000!!!"
               </p>
               <div className="mt-8 pt-8 border-t border-gray-700">
                 <p className="text-sm text-gray-500">
