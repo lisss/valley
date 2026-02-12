@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a0a0a;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid #8B0000;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #8B0000; }
+}
+
+.glitch {
+  position: relative;
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.shadow-pulse {
+  animation: shadow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes shadow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(139, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(139, 0, 0, 0.8);
+  }
+}
