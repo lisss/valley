@@ -94,9 +94,9 @@ Actually: `--- / . / ... / . / -- / . / -. / -`
 
 ---
 
-## Stage 6: The Black Heart (Final Revelation)
+## Stage 6: The Heart (Final Revelation)
 
-**The Twist:** The black heart was inside you all along.
+**The Twist:** The Heart was inside you all along.
 
 **Hitchcock Philosophy:** True to Hitchcock's style, the real horror isn't external—it's the darkness within ourselves. The quest becomes a journey of self-discovery, revealing that what we seek externally often reflects what's inside us.
 

@@ -341,7 +341,7 @@ export default function Home() {
         {stage === 6 && (
           <div className="space-y-8 p-8 bg-gray-900 bg-opacity-50 rounded-lg border border-blood-red shadow-pulse text-center">
             <h2 className="text-4xl font-bold text-blood-red animate-pulse-slow">
-              The Black Heart
+              The Heart
             </h2>
             <div className="text-gray-300 leading-relaxed space-y-6">
               <p className="text-xl">
@@ -372,7 +372,7 @@ export default function Home() {
               </p>
               <div className="mt-8 pt-8 border-t border-gray-700">
                 <p className="text-sm text-gray-500">
-                  The quest is complete. The black heart has been found.
+                  The quest is complete. The Heart has been found.
                 </p>
                 <p className="text-xs text-gray-600 mt-4 italic">
                   "We all go a little mad sometimes." — Norman Bates, Psycho

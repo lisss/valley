@@ -1,6 +1,6 @@
 # The Valley
 
-A Hitchcock-inspired psychological horror quest to find the black heart.
+A Hitchcock-inspired psychological horror quest to find The Heart.
 
 ## Quest Overview
 

@@ -55,7 +55,7 @@ Your husband will encounter:
 3. **The Hallway** - Morse code translation
 4. **The Basement** - Hitchcock's "The Birds" counting puzzle
 5. **The Hidden Room** - Reverse text cipher
-6. **The Black Heart** - Final psychological revelation
+6. **The Heart** - Final psychological revelation
 
 **Estimated Time:** 30-60 minutes (challenging!)
 
