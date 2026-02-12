@@ -50,8 +50,8 @@ export default function Home() {
         checkAnswer(input, 'basement')
         break
       case 4:
-        // Bird species count
-        checkAnswer(input, 'seven')
+        // Hitchcock numbers sum: 39 + 26 + 13 + 6 = 84
+        checkAnswer(input, '84')
         break
       case 5:
         // Final cipher
@@ -232,41 +232,26 @@ export default function Home() {
           <div className="space-y-6 p-8 bg-gray-900 bg-opacity-50 rounded-lg border border-blood-red shadow-pulse">
             <h2 className="text-3xl font-bold text-blood-red">The Basement</h2>
             <div className="text-gray-300 leading-relaxed space-y-4">
-              <p>The basement is cold. Pictures line the walls—all of birds, Hitchcock's obsession.</p>
+              <p>You descend into the basement. The air is thick with dust and dread.</p>
+              <p>On an old film reel canister, a note is taped with trembling handwriting:</p>
               <div className="border border-gray-700 p-6 rounded bg-black">
-                <p className="mb-4 text-center italic">Count the species carefully:</p>
-                <div className="grid grid-cols-2 gap-4 text-center">
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🦅 Eagle</p>
-                    <p className="text-sm text-gray-500">One watches from above</p>
-                  </div>
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🦉 Owl</p>
-                    <p className="text-sm text-gray-500">Two in the rafters</p>
-                  </div>
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🦆 Duck</p>
-                    <p className="text-sm text-gray-500">One by the water</p>
-                  </div>
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🦜 Parrot</p>
-                    <p className="text-sm text-gray-500">One repeats words</p>
-                  </div>
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🕊️ Dove</p>
-                    <p className="text-sm text-gray-500">One seeks peace</p>
-                  </div>
-                  <div className="border border-gray-800 p-3">
-                    <p className="text-lg">🦢 Swan</p>
-                    <p className="text-sm text-gray-500">One in the lake</p>
-                  </div>
+                <p className="text-center italic mb-4 text-gray-400">The Final Clue:</p>
+                <div className="space-y-3 text-center">
+                  <p className="text-blood-red font-bold">39 STEPS lead you higher,</p>
+                  <p className="text-blood-red font-bold">North by Northwest, 26 more aspire,</p>
+                  <p className="text-blood-red font-bold">In the BIRDS, they number 13 with dark desire,</p>
+                  <p className="text-blood-red font-bold">PSYCHO adds 6 to the funeral pyre.</p>
+                  <p className="mt-6 text-gray-300">Sum Hitchcock's numbers, what do you find?</p>
+                  <p className="text-gray-300">The total unlocks what lurks in your mind.</p>
                 </div>
-                <p className="mt-4 text-center text-blood-red">
-                  How many birds in total? (Write as a word)
-                </p>
+                <div className="mt-6 pt-6 border-t border-gray-800">
+                  <p className="text-sm text-gray-500 text-center">
+                    (Hint: Look for the numbers hidden in the titles and verses)
+                  </p>
+                </div>
               </div>
               <p className="text-xs text-gray-600 italic">
-                Hitchcock once said: "Count them all, for the devil is in the details"
+                All references to classic Hitchcock films... but what do they add up to?
               </p>
             </div>
             <form onSubmit={handleSubmit} className="mt-6">
@@ -274,7 +259,7 @@ export default function Home() {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="The number..."
+                placeholder="The sum of Hitchcock's numbers..."
                 className="w-full px-4 py-3 bg-black border border-gray-700 rounded focus:border-blood-red focus:outline-none"
               />
               {error && <p className="text-red-500 mt-2 text-sm">{error}</p>}

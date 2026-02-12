@@ -65,21 +65,19 @@ Actually: `--- / . / ... / . / -- / . / -. / -`
 
 ---
 
-## Stage 4: The Basement (Counting Puzzle)
+## Stage 4: The Basement (Hitchcock Films Math Puzzle)
 
-**Birds Listed:**
-1. Eagle - 1 bird
-2. Owl - 2 birds
-3. Duck - 1 bird
-4. Parrot - 1 bird
-5. Dove - 1 bird
-6. Swan - 1 bird
+**The Riddle:**
+- "39 STEPS lead you higher" → 39 (The 39 Steps, 1935)
+- "North by Northwest, 26 more aspire" → 26 
+- "In the BIRDS, they number 13" → 13 (The Birds, 1963)
+- "PSYCHO adds 6 to the funeral pyre" → 6 (Psycho, 1960)
 
-**Total:** 1 + 2 + 1 + 1 + 1 + 1 = 7
+**Calculation:** 39 + 26 + 13 + 6 = 84
 
-**Solution:** `SEVEN` (written as a word)
+**Solution:** `84`
 
-**Hitchcock Connection:** Reference to "The Birds" (1963), one of Hitchcock's most famous horror films.
+**Hitchcock Connection:** References to four classic Hitchcock films - The 39 Steps, North by Northwest, The Birds, and Psycho. Players must extract the numbers from each clue and sum them.
 
 ---
 
