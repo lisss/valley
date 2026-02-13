@@ -96,11 +96,11 @@ Actually: `--- / . / ... / . / -- / . / -. / -`
 
 ## Stage 6: The Heart (Final Revelation)
 
-**The Twist:** The Heart was inside you all along.
+**The Twist:** After all the shadows and suspense, the real treasure was never something dark—it was your shared heart, shining at the end.
 
-**Hitchcock Philosophy:** True to Hitchcock's style, the real horror isn't external—it's the darkness within ourselves. The quest becomes a journey of self-discovery, revealing that what we seek externally often reflects what's inside us.
+**Valentine's Note:** The final scene reveals a glowing blue-and-yellow heart and a simple truth: this whole journey was a love letter in disguise, leading to "Люблю тебе 3000!!!" and celebrating the two of you.
 
-**Famous Quote:** "We all go a little mad sometimes." — Norman Bates, *Psycho*
+**Tone Shift:** While the early stages echo Hitchcock's suspense, the ending softens into warmth, gratitude, and love—a perfect turn from fear to comfort, just like coming home to the person you love.
 
 ---
 

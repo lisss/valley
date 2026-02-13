@@ -345,7 +345,7 @@ export default function Home() {
             </h2>
             <div className="text-gray-300 leading-relaxed space-y-6">
               <p className="text-xl">
-                You approach the mirror. In its reflection, you see yourself... and something else.
+                You approach the mirror. After all the fear and doubt, it doesn't show a monster in the dark—it shows you, and the love that waited at the end of every step.
               </p>
               <div className="my-8 flex justify-center">
                 <div className="relative animate-pulse-slow">
@@ -372,10 +372,10 @@ export default function Home() {
               </p>
               <div className="mt-8 pt-8 border-t border-gray-700">
                 <p className="text-sm text-gray-500">
-                  The quest is complete. The Heart has been found.
+                  The quest is complete. The Heart has been found—and it was always yours.
                 </p>
-                <p className="text-xs text-gray-600 mt-4 italic">
-                  "We all go a little mad sometimes." — Norman Bates, Psycho
+                <p className="text-xs text-gray-400 mt-4 italic">
+                  Happy Valentine's Day. Thank you for walking through the dark with me, and for being my light.
                 </p>
                 <button
                   onClick={goBack}
